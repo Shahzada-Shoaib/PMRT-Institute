@@ -1,40 +1,62 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "PMRT Institute",
+    "slug": "pmrt-institute",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/pmrt-logo.webp",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/pmrt-logo.webp"
     },
     "android": {
+      "package": "com.company.pmrt",
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "backgroundColor": "#157A96",
+        "foregroundImage": "./assets/pmrt-logo.webp"
       },
       "predictiveBackGestureEnabled": false
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/pmrt-logo.webp"
     },
     "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static",
+            "forceStaticLinking": [
+              "RNFBApp",
+              "RNFBAuth"
+            ]
+          }
+        }
+      ],
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#0C4A6E",
+          "image": "./assets/pmrt-logo.webp",
+          "imageWidth": 100,
           "android": {
-            "image": "./assets/images/splash-icon.png",
-            "imageWidth": 76
+            "image": "./assets/pmrt-logo.webp",
+            "imageWidth": 100
+          },
+          "ios": {
+            "image": "./assets/pmrt-logo.webp",
+            "imageWidth": 100
           }
         }
-      ]
+      ],
+      "expo-video",
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "@react-native-google-signin/google-signin"
     ],
     "experiments": {
       "typedRoutes": true,

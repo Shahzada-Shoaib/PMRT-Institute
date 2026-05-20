@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "387998362532",
+    "project_id": "pmrt-institute",
+    "storage_bucket": "pmrt-institute.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387998362532:android:dadb2026d4567fde2aef31",
+        "android_client_info": {
+          "package_name": "com.company.pmrt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387998362532-gct3k9ks8s4rd6263jptr1sccq7gttru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.pmrt",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "387998362532-e1i3hldqtu18ts45adse1qbanmvmrvku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjjUb9Qd5-76Ch9XDz5zve8lqOuXLyh2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387998362532-e1i3hldqtu18ts45adse1qbanmvmrvku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
